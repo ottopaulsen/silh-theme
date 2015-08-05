@@ -1,20 +1,14 @@
 /*
-Theme Name: SILH
-Version: 1.0
-Description: A child theme of Divi
-Author: Husdesign.no
-Author URI: http://www.husdesign.no
-Template: Divi
+Theme Name:       silh-theme
+Theme URI:        https://github.com/ottopaulsen/silh-theme
+Version:          0.1.0
+Description:      Child theme of Divi.
+Author:           Otto Paulsen
+Template:         Divi
+Template Version: 2.3.2
+GitHub Theme URI: https://github.com/ottopaulsen/silh-theme
+GitHub Branch:    Prod
 */
-
-/* Farger:
-
-Mørk blå: #0068a9
-Gul:      #ffe100
-Lys blå:  #E8F3FB
-
-*/
-
 
 @import url("../Divi/style.css");
 
