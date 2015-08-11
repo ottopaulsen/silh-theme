@@ -1,16 +1,23 @@
 /*
-Theme Name:       silh-theme
-Theme URI:        https://github.com/ottopaulsen/silh-theme
-Version:          0.1.0
-Description:      Child theme of Divi.
-Author:           Otto Paulsen
-Template:         Divi
-Template Version: 2.3.2
-GitHub Theme URI: https://github.com/ottopaulsen/silh-theme
-GitHub Branch:    Prod
+Theme Name: SILH
+Version: 1.0
+Description: A child theme of Divi
+Author: Husdesign.no
+Author URI: http://www.husdesign.no
+Template: Divi
 */
 
+/* Farger:
+
+Mørk blå: #0068a9
+Gul:      #ffe100
+Lys blå:  #E8F3FB
+
+*/
+
+
 @import url("../Divi/style.css");
+@import url("transition.css");
 
 .et-fixed-header #top-menu > li > a {
   padding-bottom: 2px;
@@ -24,7 +31,15 @@ GitHub Branch:    Prod
 }
 
 #forsidebanner {
-   margin-bottom: -5px;
+   _margin-bottom: -5px;
+}
+
+.et_pb_row {
+  width: 100%;
+}
+
+#forside_section > .et_pb_row:first-of-type {
+  padding: 0px;
 }
 
 .et_fixed_nav #page-container {
@@ -50,6 +65,7 @@ nav#top-menu-nav{
 ul#top-menu.nav {
   height: 20px;
 }
+
 
 #top-menu {
   letter-spacing: -4px;
@@ -174,7 +190,7 @@ ul#top-menu.nav {
 /* SILH Tabell for lagets kontaktpersoner på kontaktside */
 .silhLagetsKontaktpersonerTable, .silhLagetsKontaktpersonerTable tr td {
 	border: 0px;
-	line-height: 1em;
+	line-height: 125%;
 }
 .silhLagetsKontaktpersonerTable > tbody {
     display:block;
@@ -241,7 +257,7 @@ ul#top-menu.nav {
 }
 
 .klubbsidemeny, .klubbsidemeny tr td {
-	line-height: 1em;
+	line-height: 1.5em;
 }
 
 .klubbmenytitle{
@@ -398,13 +414,13 @@ a.linker_a:hover, .linker_h:hover, .linker_v:hover{
    list-style-type: none;
 }
 
-.wprss-feed-meta {
-    font-size: 0.9em;
+.wprss-feed-meta, .wprss-time-ago {
+    font-size: 0.8em;
 }
 
 
-.feed-source {
-    display: none;
+.feed-date {
+    _display: none;
 }
 
 /* #ffe100 #0068a9 */
