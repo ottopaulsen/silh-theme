@@ -38,6 +38,10 @@ Lys blå:  #E8F3FB
   width: 100%;
 }
 
+.et_pb_widget_area_left {
+  padding-right: 0px;
+}
+
 #forside_section > .et_pb_row:first-of-type {
   padding: 0px;
 }
